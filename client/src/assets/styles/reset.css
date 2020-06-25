@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input {
+  outline: 0;
+  border: 0;
+}
+
+/* 设置一个页面的背景颜色 */
+body {
+  background-color: #f7f6fb;
+}

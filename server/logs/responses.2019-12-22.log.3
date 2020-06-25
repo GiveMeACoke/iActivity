@@ -1,0 +1,3799 @@
+[2019-12-22T21:50:03.504] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 7,
+  response: {
+    status: 401,
+    message: 'Unauthorized',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'text/plain; charset=utf-8',
+      'content-length': '12'
+    },
+    body: 'Unauthorized'
+  }
+}
+[2019-12-22T21:50:03.524] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 1,
+  response: {
+    status: 401,
+    message: 'Unauthorized',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'text/plain; charset=utf-8',
+      'content-length': '12'
+    },
+    body: 'Unauthorized'
+  }
+}
+[2019-12-22T21:50:03.571] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 1,
+  response: {
+    status: 401,
+    message: 'Unauthorized',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'text/plain; charset=utf-8',
+      'content-length': '12'
+    },
+    body: 'Unauthorized'
+  }
+}
+[2019-12-22T21:50:17.285] [INFO] response - {
+  method: 'POST',
+  url: '/client/api/users/login',
+  body: { user_id: '1740624207', password: '123456' },
+  costTime: 47,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: {
+      code: 1,
+      message: '登录成功',
+      token: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6MTI5LCJ1c2VyX2lkIjoxNzQwNjI0MjA3LCJ1c2VyX25hbWUiOiLot6_po54iLCJpYXQiOjE1NzcwMjI2MTcsImV4cCI6MTU3NzAyODYxN30.HJQTgiKfee-D71cYg0Pfi50nGDvhr_-1RWbJAMpHz1U'
+    }
+  }
+}
+[2019-12-22T21:50:17.407] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 91,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T21:50:17.420] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 89,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T21:50:17.437] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 110,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T21:50:17.759] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 207,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T21:50:23.074] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 42,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T21:50:23.089] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 70,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T21:50:23.105] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 84,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T21:50:23.858] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 43,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T21:50:23.859] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 58,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T21:50:23.885] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 72,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T21:50:24.190] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/userActivities',
+  body: {},
+  costTime: 272,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      teacherActivities: [],
+      cadreActivities: [Array],
+      applyActivities: []
+    }
+  }
+}
+[2019-12-22T21:50:24.902] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 28,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T21:50:24.906] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 40,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T21:50:24.907] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 40,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T21:50:25.090] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 125,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:13:35.141] [INFO] response - {
+  method: 'POST',
+  url: '/client/api/users/login',
+  body: { user_id: '1740624207', password: '123456' },
+  costTime: 57,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: {
+      code: 1,
+      message: '登录成功',
+      token: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6MTI5LCJ1c2VyX2lkIjoxNzQwNjI0MjA3LCJ1c2VyX25hbWUiOiLot6_po54iLCJpYXQiOjE1NzcwMjc2MTUsImV4cCI6MTU3NzAzMzYxNX0.-BCL9PYd0x5gDPUF--EBj5C-5jD27JkXvSE04v__zTA'
+    }
+  }
+}
+[2019-12-22T23:13:35.276] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 87,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:13:35.300] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 105,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:13:35.309] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 123,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:13:35.640] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 228,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:13:44.494] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 87,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:13:44.497] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 98,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:13:44.521] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 120,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:13:44.560] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/activityInfo/93',
+  body: {},
+  costTime: 18,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: activities {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      cadre: [users],
+      teacher: [users],
+      organization: [organizations],
+      category: [categories]
+    }
+  }
+}
+[2019-12-22T23:13:44.807] [INFO] response - {
+  method: 'POST',
+  url: '/client/api/activities/registeredActivity/93',
+  body: {},
+  costTime: 24,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: student_activities {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: [Object],
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false
+    }
+  }
+}
+[2019-12-22T23:13:47.959] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 35,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:13:48.060] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 89,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:13:48.069] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 100,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:13:48.108] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 91,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:13:48.154] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 62,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:13:48.158] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 66,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:13:48.344] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 153,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:13:49.266] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 43,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:13:49.273] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 67,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:13:49.275] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 70,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:13:49.552] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/userActivities',
+  body: {},
+  costTime: 245,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      teacherActivities: [],
+      cadreActivities: [Array],
+      applyActivities: [Array]
+    }
+  }
+}
+[2019-12-22T23:13:50.559] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 30,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:13:50.560] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 40,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:13:50.590] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 69,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:13:51.043] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/userActivities',
+  body: {},
+  costTime: 434,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      teacherActivities: [],
+      cadreActivities: [Array],
+      applyActivities: [Array]
+    }
+  }
+}
+[2019-12-22T23:13:52.469] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 36,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:13:52.472] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 37,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:13:52.476] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 39,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:13:53.156] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 53,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:13:53.157] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 53,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:13:53.167] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 55,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:13:53.491] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/userActivities',
+  body: {},
+  costTime: 291,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      teacherActivities: [],
+      cadreActivities: [Array],
+      applyActivities: [Array]
+    }
+  }
+}
+[2019-12-22T23:13:54.063] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 26,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:13:54.089] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 53,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:13:54.092] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 56,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:13:54.793] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 28,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:13:54.805] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 28,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:13:54.809] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 41,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:13:55.005] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/userActivities',
+  body: {},
+  costTime: 171,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      teacherActivities: [],
+      cadreActivities: [Array],
+      applyActivities: [Array]
+    }
+  }
+}
+[2019-12-22T23:13:56.120] [INFO] response - {
+  method: 'DELETE',
+  url: '/client/api/activities/registeredActivity/93',
+  body: {},
+  costTime: 22,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { message: '取消报名成功' }
+  }
+}
+[2019-12-22T23:13:56.656] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 25,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:13:56.657] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 25,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:13:56.659] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 26,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:13:57.625] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 21,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:13:57.628] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 20,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:13:57.640] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 31,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:13:57.805] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 128,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:14:41.736] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 82,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:14:41.752] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 86,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:14:41.756] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 90,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:14:42.024] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 228,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:18:22.178] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 130,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:18:31.311] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 44,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:18:31.326] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 47,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:18:31.329] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 60,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:18:31.529] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 169,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:21:06.744] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 224,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:21:12.069] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 5,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:21:12.104] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 19,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:21:12.120] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 35,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:21:12.309] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 138,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:23:19.129] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 87,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:23:19.131] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 74,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:23:19.143] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 87,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:23:19.344] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 159,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:23:52.637] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 136,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:26:49.866] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 261,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:27:53.133] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 59,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:27:53.148] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 71,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:27:53.161] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 85,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:27:53.348] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 156,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:28:43.290] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 95,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:29:44.215] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 25,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:29:44.281] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 64,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:29:44.297] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 73,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:29:44.432] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 98,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:30:28.063] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 134,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:31:19.837] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 139,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:34:30.043] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 54,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:34:30.082] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 84,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:34:30.130] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 108,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:34:58.600] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 87,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:34:58.694] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 116,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:34:58.713] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 129,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:35:38.632] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 90,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:35:38.636] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 111,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:35:38.639] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 112,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:35:44.290] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 46,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:35:44.337] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 62,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:35:44.372] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 79,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:35:59.014] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 206,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:35:59.025] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 203,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:35:59.055] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 233,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:37:01.317] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 55,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:37:01.331] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 68,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:37:01.335] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 70,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:38:02.893] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 40,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:38:02.967] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 58,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:38:02.973] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 77,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:38:16.792] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 110,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:38:16.808] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 114,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:38:16.812] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 116,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:39:03.020] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 41,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:39:03.033] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 55,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:39:03.036] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 66,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:39:09.550] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 50,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:39:09.553] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 51,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:39:09.599] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 59,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:39:12.246] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 7,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:39:12.289] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 39,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:39:12.294] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 42,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:40:50.017] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 33,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:40:50.019] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 47,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:40:50.023] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 50,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:41:01.171] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 52,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:41:01.205] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 52,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:41:01.217] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 56,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:41:01.338] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 103,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:41:01.606] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 218,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:41:22.832] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 213,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:41:25.916] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 41,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:41:25.931] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 44,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:41:25.936] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 36,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:41:26.052] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 101,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:41:26.236] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 150,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:41:38.719] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 104,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:42:36.442] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 70,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:42:36.445] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 60,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:42:36.446] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 60,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:42:36.622] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 148,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:42:36.779] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 117,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:42:39.476] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 110,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:43:18.272] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 105,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:44:42.781] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 60,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:44:42.797] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 73,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:44:42.814] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 49,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:44:42.948] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 115,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:44:43.195] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 197,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:45:24.053] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 36,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:45:24.057] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 39,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:45:24.060] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 37,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:45:24.094] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/activityInfo/82',
+  body: {},
+  costTime: 17,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: activities {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      cadre: [users],
+      teacher: [users],
+      organization: [organizations],
+      category: [categories]
+    }
+  }
+}
+[2019-12-22T23:45:25.437] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 22,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:45:25.474] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 36,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:45:25.475] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 34,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:45:25.507] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 49,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:45:25.521] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 25,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:45:25.525] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 29,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:45:25.661] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 122,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:45:25.842] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 133,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:45:43.122] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 124,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:45:52.657] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 33,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:45:52.670] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 44,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:45:52.672] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 45,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:45:52.703] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/activityInfo/85',
+  body: {},
+  costTime: 15,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: activities {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      cadre: [users],
+      teacher: [users],
+      organization: [organizations],
+      category: [categories]
+    }
+  }
+}
+[2019-12-22T23:45:55.019] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 37,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:45:55.040] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 50,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:45:55.054] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 63,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:45:55.088] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/activityInfo/85',
+  body: {},
+  costTime: 18,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: activities {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      cadre: [users],
+      teacher: [users],
+      organization: [organizations],
+      category: [categories]
+    }
+  }
+}
+[2019-12-22T23:45:56.635] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 42,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:45:56.649] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 22,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:45:56.668] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 47,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:45:56.688] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 34,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:45:56.699] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 22,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:45:56.715] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 26,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:45:56.839] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 105,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:45:57.041] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/activities/',
+  body: {},
+  costTime: 152,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { count: 8, rows: [Array] }
+  }
+}
+[2019-12-22T23:45:58.816] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 22,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:45:58.819] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 32,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:45:58.820] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 32,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
+[2019-12-22T23:45:59.820] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/organizations',
+  body: {},
+  costTime: 27,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [organizations], [organizations], [organizations] ]
+  }
+}
+[2019-12-22T23:45:59.820] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/common/categories',
+  body: {},
+  costTime: 27,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: [ [categories], [categories], [categories], [categories] ]
+  }
+}
+[2019-12-22T23:45:59.824] [INFO] response - {
+  method: 'GET',
+  url: '/client/api/users/userInfo',
+  body: {},
+  costTime: 29,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://172.16.124.66:8088',
+      'access-control-allow-credentials': 'true',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: users {
+      dataValues: [Object],
+      _previousDataValues: [Object],
+      _changed: {},
+      _modelOptions: [Object],
+      _options: [Object],
+      isNewRecord: false,
+      role: [roles],
+      organization: [organizations]
+    }
+  }
+}
